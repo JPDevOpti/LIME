@@ -4,7 +4,7 @@ import { Mail, User, Calendar, Award, BookOpen, Microscope } from 'lucide-react'
 
 export function Pathology() {
   return (
-    <div className="min-h-screen bg-slate-50 font-sans">
+    <div className="min-h-screen bg-slate-50 font-sans flex flex-col">
       <Header />
 
       {/* Hero Section */}
@@ -30,7 +30,9 @@ export function Pathology() {
             </div>
 
             <a 
-              href="#" 
+              href="https://lime-pathsys-frontend.onrender.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
               className="group relative flex flex-col items-center justify-center w-full max-w-sm overflow-hidden rounded-2xl bg-white/10 backdrop-blur-sm p-8 text-center border border-white/20 hover:bg-white/20 transition-all hover:scale-105 hover:shadow-2xl"
             >
               <div className="rounded-full bg-brand-600 p-4 mb-4 group-hover:bg-brand-500 transition-colors shadow-lg shadow-brand-900/50">
@@ -43,7 +45,7 @@ export function Pathology() {
         </div>
       </div>
 
-      <main className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+      <main className="mx-auto max-w-7xl px-6 py-16 lg:px-8 flex-1">
         
         {/* Contact Info Card */}
         <div className="mb-16 -mt-24 relative z-10 bg-white rounded-xl shadow-xl p-8 border border-slate-100">

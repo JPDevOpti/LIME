@@ -8,6 +8,9 @@ export function Footer() {
         <p className="mt-2 text-sm text-slate-500">
           Teléfono: +57 (604) 219 2381 | Email: lime@lime.edu.co
         </p>
+        <p className="mt-4 text-sm text-slate-500">
+          Desarrollado por <a href="https://github.com/JPDevOpti" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-700 font-medium">Juan Pablo Restrepo Mancilla</a>
+        </p>
       </div>
     </footer>
   );

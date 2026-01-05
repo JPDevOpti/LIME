@@ -57,7 +57,7 @@ export function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans">
+    <div className="min-h-screen bg-slate-50 font-sans flex flex-col">
       <Header />
 
       {/* Hero Section */}
@@ -86,7 +86,7 @@ export function Home() {
       </div>
 
       {/* Apps Grid */}
-      <main className="relative -mt-16 mx-auto max-w-7xl px-6 pb-24 lg:px-8">
+      <main className="relative -mt-16 mx-auto max-w-7xl px-6 pb-24 lg:px-8 flex-1">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {apps.map((app, index) => (
             <AppCard key={index} {...app} />

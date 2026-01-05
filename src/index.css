@@ -6,6 +6,14 @@
   font-family: 'Poppins', system-ui, -apple-system, sans-serif;
 }
 
+html, body, #root {
+  height: 100%;
+}
+
+:root {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
 body {
   @apply bg-slate-50 text-slate-900 antialiased;
 }
