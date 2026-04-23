@@ -3,6 +3,7 @@ import { HeroHome } from '../../components/sections/home/HeroHome';
 import { HighlightsHome } from '../../components/sections/home/HighlightsHome';
 import { AboutHome } from '../../components/sections/home/AboutHome';
 import { ServicesGrid } from '../../components/sections/home/ServicesGrid';
+import { InitiativesSection } from '../../components/sections/home/InitiativesSection';
 import { ContactSection } from '../../components/sections/home/ContactSection';
 
 export function Home() {
@@ -12,6 +13,7 @@ export function Home() {
       <HighlightsHome />
       <AboutHome />
       <ServicesGrid />
+      <InitiativesSection />
       <ContactSection />
     </PageWrapper>
   );

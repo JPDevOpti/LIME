@@ -60,9 +60,9 @@ export function Header() {
             Mis resultados
           </Link>
           <Link
-            to="/hub"
+            to="/login"
             className="inline-flex items-center rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-brand-700">
-              Acceder
+              Iniciar sesión
           </Link>
         </div>
       </div>
